@@ -17,7 +17,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/kushal/smart-shopping-checklist.git
+   git clone https://github.com/kushal9811/smart-shopping-checklist
    ```
 
 2. **Navigate to the project directory**:
