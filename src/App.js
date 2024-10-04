@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Item from './components/item';
-import React, { Component } from 'react'
+import React from 'react'
 import { useState } from 'react'
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
     });
   };
   const handlesubmit = (e) => {
-    /*e.preventDefault();*/
+    e.preventDefault();
     if(newProduct.itemName && newProduct.cost){
       const newId = products.length + 1;
       setProducts([...products , {id: newId, itemName: newProduct.itemName, cost: newProduct.cost}]);
