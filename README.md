@@ -13,6 +13,9 @@
 - **Responsive Design**: The app is designed to work seamlessly across different devices, including mobile, tablet, and desktop.
 - **Persistent Data (Optional)**: Option to save your checklist data locally for future reference.
 
+## Deployment
+```https://smart-shopping-checklist.netlify.app/```
+
 ## Installation
 
 1. **Clone the repository**:
